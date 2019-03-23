@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Added a link to our external stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm main">
+                <h1>Trivia Game!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p class="display">Correct answers:<span class="correct">0</span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p class="display">Wrong answers:<span class="wrong">0</span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p class="display"> Unanswered:<span class="unanswered">0</span></p>
+            </div>
+        </div>
+        <div class="row start">
+            <div class="col-sm">
+                <button type="button" class="btn btn-primary btn-lg">Start</button>
+            </div>
+        </div>
+        <div class="row countdown">
+            <div class="col-sm">
+                <p class="time"><span class="timer"><strong>0</strong></span></p>
+            </div>
+        </div>
+        <div class="row countdown">
+                <div class="col-sm">
+                    <p class="time"><span class="timedisplay"><strong></strong></span></p>
+                </div>
+            </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm">
+                <div>
+                        <p class="questiondisplay"><span class="question"><strong></strong></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/nascar2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgb(76, 185, 180);
+    margin-top: 30px;   
+}
+
+h1, .display, .questions{
+    text-align: center;
+}
+
+.btn {
+    background-color: white;
+    color:  rgb(66, 62, 62); 
+    margin-bottom:15px; 
+}
+
+.start {
+    text-align: center;
+    background-color: rgb(76, 185, 180);
+    height: 100%;
+}
+
+.time { 
+    text-align: center;
+    font-size: 34px;
+}
+
+.questions {
+    background-color: rgb(230, 227, 51);
+}
+
+.finished {
+    text-align: center;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+    
+
+   
