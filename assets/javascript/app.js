@@ -2,7 +2,7 @@ var quiz =[];
 var correctAnswer = ""
 var wrongAnswer = ""
 var unanswered = ""
-var number = 5;
+var number = 30;
 var intervalId;
 
 var quizQuestion = [
